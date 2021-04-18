@@ -4,6 +4,19 @@ This script lets you automatically notify a Discord channel about new 311 calls 
 
 ## Installation
 
+To run locally, `pip install requirements.txt`. You'll need to set the config vars, as outlined below, in an `.env` file for it to work.
+
+I run this software for free on [Heroku](https://dashboard.heroku.com/). If you're doing this as well:
+
+1. Provision [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler). 
+2. Set a job for every ten minutes with the command `python3 run.py`
+3. Add the following config vars:
+	- `ADDRESS` : `YOUR_STREET_ADDRESS_HERE`
+	- `ZIPCODE` : `YOUR_ZIPCODE_HERE`
+	- `INTERVAL` : `10`
+	- `DISCORD_URL`: `DISCORD_WEBHOOK_URL_HERE`
+	- `TZ` : `America/New_York`
+
 ## License
 
 this code is licensed under [the fuck around and find out license v0.1](https://paste.sr.ht/~boringcactus/ed023ccf9d7a5559612d6e60f0474d6c3375349d).

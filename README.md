@@ -13,8 +13,8 @@ I run this software for free on [Heroku](https://dashboard.heroku.com/). If you'
 3. Add the following config vars:
 	- `ADDRESS` : `YOUR_STREET_ADDRESS_HERE`
 	- `ZIPCODE` : `YOUR_ZIPCODE_HERE`
-	- `INTERVAL` : `10`
 	- `DISCORD_URL`: `DISCORD_WEBHOOK_URL_HERE`
+	- `INTERVAL` : `10`
 	- `TZ` : `America/New_York`
 
 ## License
